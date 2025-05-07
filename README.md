@@ -28,6 +28,8 @@ pip install -r requirements.txt
 ## 🛠️ How to run
 
 ```bash
+mv .env.templeate .env
+# Edit .env file and fill in your own LLM's base url and api key
 uvicorn app.main:app --reload
 ```
 
